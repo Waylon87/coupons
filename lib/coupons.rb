@@ -1,5 +1,5 @@
 module Coupons
-  require 'paginate/compat'
+  #require 'paginate/compat'
 
   require 'coupons/version'
   require 'coupons/engine'
@@ -15,7 +15,7 @@ module Coupons
   require 'coupons/finders/first_available'
   require 'coupons/finders/smaller_discount'
   require 'coupons/finders/larger_discount'
-  require 'coupons/paginate_renderer'
+  #require 'coupons/paginate_renderer'
 
   require 'autoprefixer-rails'
   require 'sass-rails'

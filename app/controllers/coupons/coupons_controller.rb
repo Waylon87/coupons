@@ -10,9 +10,9 @@ class Coupons::CouponsController < Coupons::ApplicationController
     render json: options
   end
 
-  def index
-    @coupons = Coupon.paginate(page: params[:page], size: 50)
-  end
+  # def index
+  #   @coupons = Coupon.paginate(page: params[:page], size: 50)
+  # end
 
   def new
     @coupon = Coupon.new
