@@ -1,8 +1,8 @@
 Coupons::Engine.routes.draw do
-  patch '/coupons', to: 'coupons#batch'
+  #patch '/coupons', to: 'coupons#batch'
   get '/coupons/apply', to: 'coupons#apply', as: 'apply_coupon', format: 'json'
 
-  resources :coupons do
-    get :remove, on: :member
-  end
+  # resources :coupons do
+  #   get :remove, on: :member
+  # end
 end
